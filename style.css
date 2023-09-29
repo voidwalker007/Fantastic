@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(231,172,46);
+    background: linear-gradient(146deg, rgba(231,172,46,1) 39%, rgba(255,133,0,1) 69%);
+}
+
+.navbar-brand{
+color: white !important;
+z-index: 99;
+height: 100%;
+
+}
+
+.one{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(146deg, rgba(231,172,46,1) 39%, rgba(255,133,0,1) 69%);
+}
+
+.one > h1{
+    font-size: 28vw;
+    color: wheat;
+    position: absolute;
+
+    
+
+}
+
+#fanta-img{
+    width: 40% ; 
+    z-index: 2;
+ 
+    
+    transition: all cubic-bezier(0.19,1,0.22,1),
+}
+
+#fanta-orange2{
+    width: 18%;
+    position: absolute;
+    
+    top:10%;
+    left:30%;
+    z-index:1;
+}
+
+#orange-set{
+    width: 20%;
+    position: absolute;
+right: 30%;
+z-index: 3; 
+bottom: 1%;
+}
+
+#leaf-1{
+    width: 20%;
+    position: absolute;
+    top:15%;
+    left: -1%;
+    transform: rotate(70deg);
+}
+
+#leaf-2{
+    width: 10%;  
+      position: absolute;
+      right: 10%;
+      bottom: 5%;
+
+    
+}
+
+#leaf-3{
+    width: 20%;   
+     position: absolute;
+     top: 5%;
+     right: 0;
+}
+
+.two{
+    width: 100%;
+    height: 100vh;
+    background: #662549;
+    overflow-x: hidden;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+display: flex;
+justify-content:left;
+align-items: end;
+
+
+    
+}
+.left svg{
+    width: 70%;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    flex-direction: column;
+    
+    
+}
+.right>h2{
+    font-size: 5rem;
+    color: #fff;
+    z-index: 2;
+}
+.right>p{
+    font-size:1rem;
+    color: #fff;
+   width: 70%;
+}
+
+
+
+.three{
+    width: 100%;
+    height: 100vh;
+    background: rgb(253,29,29);
+    background: linear-gradient(79deg, rgba(253,29,29,1) 12%, rgba(252,176,69,1) 51%);  display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow-x: hidden;
+
+
+}
+
+.card{
+    background-color: #fff;
+    height: 70%;
+    width: 20%;
+    border-radius: 30px !important;
+    margin-bottom: 3%;
+    margin: 0 0 3% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    -webkit-box-shadow: 14px 20px 40px -11px rgba(0,0,0,0.84);
+-moz-box-shadow: 14px 20px 40px -11px rgba(0,0,0,0.84); 
+box-shadow: 14px 20px 40px -11px rgba(0,0,0,0.84);
+ 
+   
+}
+
+.card > h2{
+color: rgb(13, 125, 145);
+font-size: 2vw;
+
+}
+
+.card > button{
+    border: none;
+    margin: 2% 0 0 0;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    height: 10%;
+    width: 70%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    background-color: #662549;
+
+}
+
+ .card1 #card-img{
+    width: 80%;
+    position: absolute;
+    top:-10%;
+    z-index: 2;
+
+}
+
+.card2 #card-img{
+width: 195%;
+position: absolute;
+top:-8%;
+z-index: 2;
+}
+
+.card3 #card-img{
+
+    width: 130%;
+    height: 98%;
+    position: absolute;
+    top:-15%;
+    z-index: 2;
+}
+
+.card #orange2{
+    width: 90%;
+    position: absolute;
+    top:-30%;
+    z-index: 1;
+} 
+
+.card #lemon{
+    width: 120%;
+    position: absolute;
+    top:-35%;
+    z-index: 1;
+} 
+
+.four{
+    background: rgb(248, 218, 154);
+    
+}
+
+.four .card-bottom{
+   
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.four .card-bottom h2{
+font-size: 15px;
+}
+
+
+.four .card-bottom a{
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 1%;
+    width: 100px;
+    border-radius: 50px;
+   
+    background-color: #047dce;
+
+
+
+}
+
+
+.card-bottom-left{
+    display: flex;
+   
+    align-items: center;
+}
+#profile-img{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.card-bottom-right{
+  
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
